@@ -28,9 +28,11 @@ Traitements de CSV en C avec sqlite3
 - Importer les fichiers CSV à l'aide de sqlite Studio
   - menu `tools` `import`
   - Dans les options, sélectionner `CSV`, texte codé `system`, séparateur `;`
+  - Vérifier le bon import : Un export CSV doit permettre de générer le fichier source à l'identique
 
 ## Code C
 - Exemples d'utilisation sqlite en C ici : https://www.tutorialspoint.com/sqlite/sqlite_c_cpp.htm
+- L'écriture des fichiers en C sera faite en encodage UTF8 (sans BOM) (par défaut, c'est le cas, mais il vaut mieux vérifier)
 
   
 
